@@ -3,6 +3,13 @@
 import Layout from "../layouts/Layout.astro";
 import Slideshow from "../components/hero/Slideshow.astro";
 import Landing from "../components/hero/Landing.astro";
+import Centered from "../components/hero/Centered.astro";
+import AgencyCentered from "../components/hero/AgencyCentered.astro";
+
+import ThreeCard from "../components/services/ThreeCard.astro";
+import Agency6Card from "../components/services/Agency6Card.astro";
+
+import AgencySimple from "../components/footers/AgencySimple.astro";
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
@@ -10,7 +17,17 @@ import Landing from "../components/hero/Landing.astro";
 
 <Layout>
   <main>
+    <!-- Hero -->
     <!-- <Slideshow /> -->
-    <Landing />
-  </main>
-</Layout>
+    <!-- <Landing /> -->
+    <!-- <Centered /> -->
+    <AgencyCentered />
+
+    <!-- Services -->
+    <!-- <ThreeCard /> -->
+    <Agency6Card />
+
+    <!-- Footer -->
+    <AgencySimple />
+  </main></Layout
+>
