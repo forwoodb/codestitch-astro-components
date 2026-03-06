@@ -1,9 +1,16 @@
 ---
 import "../assets/styles/global.css";
+// Navigation
 import NavDropdown from "../components/navigation/NavDropdown.astro";
 import ContainedNav from "../components/navigation/ContainedNav.astro";
 import Agency from "../components/navigation/Agency.astro";
 import Agency2 from "../components/navigation/Agency2.astro";
+import MiscDoubleDropdown from "../components/navigation/MiscDoubleDropdown.astro";
+import MiscStandardDropdown from "../components/navigation/MiscStandardDropdown.astro";
+import MiscStandardDropdown2 from "../components/navigation/MiscStandardDropdown2.astro";
+import MiscTopBarDropdown from "../components/navigation/MiscTopBarDropdown.astro";
+// footers
+import AgencySimple from "../components/footers/AgencySimple.astro";
 ---
 
 <!doctype html>
@@ -17,12 +24,18 @@ import Agency2 from "../components/navigation/Agency2.astro";
     <title>Astro Basics</title>
   </head>
   <body>
-    <!-- Navigation -->
+    <!-- NAVIGATION -->
     <!-- <NavDropdown /> -->
     <!-- <ContainedNav /> -->
-    <Agency />
+    <!-- <Agency /> -->
     <!-- <Agency2 /> -->
+    <!-- <MiscDoubleDropdown /> -->
+    <!-- <MiscStandardDropdown /> -->
+    <MiscStandardDropdown2 />
+    <!-- <MiscTopBarDropdown /> -->
     <slot />
+    <!-- FOOTER -->
+    <AgencySimple />
     <script>
       import "../assets/scripts/script.js";
     </script>
