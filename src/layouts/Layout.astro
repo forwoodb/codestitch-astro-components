@@ -1,8 +1,6 @@
 ---
 import "../assets/styles/global.css";
 // Navigation
-import NavDropdown from "../components/navigation/NavDropdown.astro";
-import ContainedNav from "../components/navigation/ContainedNav.astro";
 import Agency from "../components/navigation/Agency.astro";
 import Agency2 from "../components/navigation/Agency2.astro";
 import Agency3 from "../components/navigation/Agency3.astro";
@@ -11,6 +9,11 @@ import MiscDoubleDropdown from "../components/navigation/MiscDoubleDropdown.astr
 import MiscStandardDropdown from "../components/navigation/MiscStandardDropdown.astro";
 import MiscStandardDropdown2 from "../components/navigation/MiscStandardDropdown2.astro";
 import MiscTopBarDropdown from "../components/navigation/MiscTopBarDropdown.astro";
+import TattooDropdown from "../components/navigation/TattooDropdown.astro";
+import TherapyContained from "../components/navigation/TherapyContained.astro";
+import ContractorTopBar from "../components/navigation/ContractorTopBar.astro";
+import ContractorTopBarDropdown from "../components/navigation/ContractorTopBarDropdown.astro";
+import ContractorTopBarDropdown2 from "../components/navigation/ContractorTopBarDropdown2.astro";
 // footers
 import AgencySimple from "../components/footers/AgencySimple.astro";
 ---
@@ -27,16 +30,19 @@ import AgencySimple from "../components/footers/AgencySimple.astro";
   </head>
   <body>
     <!-- NAVIGATION -->
-    <!-- <NavDropdown /> -->
-    <!-- <ContainedNav /> -->
     <!-- <Agency /> -->
     <!-- <Agency2 /> -->
     <!-- <Agency3 /> -->
-    <Agency4 />
+    <!-- <Agency4 /> -->
     <!-- <MiscDoubleDropdown /> -->
     <!-- <MiscStandardDropdown /> -->
     <!-- <MiscStandardDropdown2 /> -->
     <!-- <MiscTopBarDropdown /> -->
+    <!-- <TattooDropdown /> -->
+    <!-- <TherapyContained /> -->
+    <!-- <ContractorTopBar /> -->
+    <!-- <ContractorTopBarDropdown /> -->
+    <ContractorTopBarDropdown2 />
     <slot />
     <!-- FOOTER -->
     <AgencySimple />
