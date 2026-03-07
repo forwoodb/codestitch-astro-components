@@ -5,6 +5,8 @@ import NavDropdown from "../components/navigation/NavDropdown.astro";
 import ContainedNav from "../components/navigation/ContainedNav.astro";
 import Agency from "../components/navigation/Agency.astro";
 import Agency2 from "../components/navigation/Agency2.astro";
+import Agency3 from "../components/navigation/Agency3.astro";
+import Agency4 from "../components/navigation/Agency4.astro";
 import MiscDoubleDropdown from "../components/navigation/MiscDoubleDropdown.astro";
 import MiscStandardDropdown from "../components/navigation/MiscStandardDropdown.astro";
 import MiscStandardDropdown2 from "../components/navigation/MiscStandardDropdown2.astro";
@@ -29,15 +31,19 @@ import AgencySimple from "../components/footers/AgencySimple.astro";
     <!-- <ContainedNav /> -->
     <!-- <Agency /> -->
     <!-- <Agency2 /> -->
+    <!-- <Agency3 /> -->
+    <Agency4 />
     <!-- <MiscDoubleDropdown /> -->
     <!-- <MiscStandardDropdown /> -->
-    <MiscStandardDropdown2 />
+    <!-- <MiscStandardDropdown2 /> -->
     <!-- <MiscTopBarDropdown /> -->
     <slot />
     <!-- FOOTER -->
     <AgencySimple />
     <script>
-      import "../assets/scripts/script.js";
+      // import "../assets/scripts/script.js";
+      import "../assets/scripts/dark.js";
+      import "../assets/scripts/onScroll.js";
     </script>
   </body>
 </html>
